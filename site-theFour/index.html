@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Favicon — replace with your own -->
+  <link rel="icon" href="images/faviconLogo.svg" type="image/svg+xml">
+  
+  <!-- Google Fonts ─────────────────────────────────────────────
+       1. Go to https://fonts.google.com and select your typeface(s)
+          — a maximum of two, ideally one — before proceeding.
+       2. Click "Get font" → "Get embed code" → choose <link>.
+          Google Fonts combines multiple selections into one URL.
+       3. Paste the <link> line below, replacing the placeholder href.
+          No @import in css/styles.css is needed — this handles it.
+  ─────────────────────────────────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- TODO: uncomment the line below and replace the href with your Google Fonts URL -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+ 
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- TODO: replace "Site Title" with your site name -->
+  <title>Home — Study Buddy</title>
+</head>
+<body>
+
+  <!-- ======== HEADER ======== -->
+  <header class="site-header">
+    <div class="container">
+      <!-- TODO: replace "Site Title" with your site name -->
+      <a href="index.html" class="site-logo"><img id="nav-logo" src="images/study-buddy-logo.png" alt=""></a>
+      <nav>
+        <ul class="site-nav">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/work.html">Services</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="nav-btn">Let's Talk</button>
+    </div>
+  </header>
+
+  <!-- ======== MAIN CONTENT ======== -->
+  <main>
+
+    <!-- Hero Section — mission statement and value proposition -->
+    <section>
+      <div class="container">
+        <!-- TODO: replace with the organisation's name or mission statement -->
+        <h1 style="text-align: center;">Find a Study Buddy</h1>
+    
+        <p id="hero-subtitle-text">
+          Build friendships, Group collaboration, Grow knowledge with peers&excl;
+        </p>
+
+        <img src="images/pexels-george-pak-7972541.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- The Problem & The Solution (2-column) -->
+    <section>
+      <div class="container">
+        <h2 style="text-align: center; margin-bottom: 35px;">The Problem &amp; Our Solution</h2>
+        <div class="grid grid--2-col">
+          <div>
+            <h3>The Problem</h3>
+            <p>
+              University students often struggle to find compatible peers to study with, 
+              especially outside of their immediate friend groups or classes. 
+              While many students benefit from collaborative learning, 
+              there is no simple, centralized way to discover and connect with others who share the same courses, 
+              schedules, goals, or study preferences.
+            </p>
+          </div>
+          <div>
+            <h3>Our Solution</h3>
+            <p>
+              Peer Study Match is a website designed for students in New Zealand, 
+              with regional access options based on either their institution or broader student communities. 
+              The platform can be hosted on a private university server or accessed through a public student 
+              server varying between university portals to connect students for short study or long period sessions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- Universities -->
+    <section>
+      <div class="container">
+        <h2 style="margin-bottom: 38px; text-align: center;">Trusted by New Zealand's Top Universities</h2>
+        <div class="logo-div-container">
+
+          <div class="logo-div">
+            <img src="images/Frame-1.jpg" alt="">
+          </div>
+
+          <div class="logo-div">
+            <img src="images/Frame-2.jpg" alt="">
+          </div>
+
+          <div class="logo-div">
+            <img src="images/Frame-3.jpg" alt="">
+          </div>
+
+          <div class="logo-div">
+            <img src="images/Frame-4.jpg" alt="">
+          </div>  
+
+          <div class="logo-div">
+            <img src="images/Frame-5.jpg" alt="">
+          </div>
+
+          <div class="logo-div">
+            <img src="images/massyUniLogo.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Benefits (3-column) -->
+    <section>
+      <div class="container">
+        <h2 style="text-align: center; margin-bottom: 35px;">Why It Works</h2>
+        <div class="grid grid--3-col">
+          <div>
+            <img src="images/b1wBG.png" alt="">
+            <h3 class="benefit-Headings">Benefit One</h3>
+            <p class="benefitSuburb">Improved Academic Progress</p>
+          </div>
+          <div>
+             <img src="images/b2wBG.png" alt="">
+            <h3 class="benefit-Headings">Benefit Two</h3>
+            <p class="benefitSuburb">Motivation and Prioritisation</p>
+          </div>
+          <div>
+             <img src="images/b3wBG.png" alt="">
+            <h3 class="benefit-Headings">Benefit Three</h3>
+            <p class="benefitSuburb">Strong Social Connections</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="site-footer">
+    <div class="container">
+      <!-- TODO: replace "Your Name" with your name -->
+      <p>&copy; 2026 The Four. DSIGN241 — Assignment 1.</p>
+      <p>
+        <a href="pages/style-guide.html">Style Guide</a>
+        &nbsp;·&nbsp;
+        <a href="pages/checklist.html">Checklist</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
