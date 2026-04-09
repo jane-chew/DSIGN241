@@ -1,0 +1,75 @@
+:root {
+  --bs-body-font-family: "Lexend", sans-serif;
+}
+
+section{
+    padding-block: 4rem;
+    font-size: 1.2rem;
+    border-top: 1px solid #ff7b00;
+}
+
+body {
+  background-color: #fffae5;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+button{
+    border-radius: 30px;
+}
+
+.btn-custom-color {
+  color: #000000;
+  background-color: #45c9c2;
+}
+
+.navbar {
+  background-color: #fffae5;
+}
+
+.nav-link {
+  --bs-nav-link-hover-color: #ff3d55;
+}
+
+.btn-color-lightpink{
+    background-color: #ffa0e7;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.btn-color-lightpink:hover{
+    background-color: white;
+    color: #ffa0e7;
+}
+
+.btn-nav{
+    background-color: #45C9C2;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.btn-nav:hover{
+    background-color: white;
+    color: #45C9C2;
+}
+
+.footer{
+    border-top: 1px solid #ff7b00;
+    padding: 32px 16px;
+}
+
+.logo-div{
+    gap: 10px;
+}
+
+.logo-div img{
+    border: 1px solid #45C9C2;
+}
+
+
